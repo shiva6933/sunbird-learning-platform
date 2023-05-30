@@ -13,7 +13,7 @@
         body: "{{ lookup('file','../docs/domain_model_v2/definitions/{{ item }}.json') }}"
         body_format: "json"
         HEADER_Content-Type: "application/json"
-        HEADER_user-id: "system"
+        HEADER_user-id: "learning"
       with_items:
         -  'content_definition'
         -  'content_image_definition'
